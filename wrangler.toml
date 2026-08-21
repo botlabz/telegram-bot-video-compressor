@@ -1,0 +1,6 @@
+name = "telegram-bot-video-compressor"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# Telegram bot token (encrypted secret, never commit):
+#   wrangler secret put BOT_TOKEN

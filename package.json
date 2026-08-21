@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-video-compressor",
+  "version": "1.0.0",
+  "description": "Reduce video file size by changing resolution, bitrate, codec or frame rate (via an optional conversion API).",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "fflate": "^0.8.2"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
